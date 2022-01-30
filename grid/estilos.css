@@ -1,0 +1,135 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-right{
+    display:flex;
+    justify-content:flex-end;
+}
+.nav-right img{
+    margin-right:7px;
+}
+.container-main{
+    display:flex;
+}
+
+.history-scroll{
+    display:flex;
+    overflow-x:scroll;
+}
+.history-scroll div img{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    border:2px solid rgb(242, 69, 49);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    margin:10px;
+}
+
+p{
+    text-align: center;
+    margin-top: -2px;
+}
+.publication-instagram{
+    display:flex;
+}
+.publication-instagram img{
+    margin-top:20px;
+    width:32px;
+    height:32px;
+    border-radius:50%;
+}
+.publication-instagram p{
+    margin:30px 10px 10px;
+}
+.instagram-img-public img{
+    width: 100%;
+    height: 100%;
+}
+.main-icon{
+    
+}
+.icon-save{
+    display:flex;
+    justify-content: flex-end;
+}
+.icons-public{
+    display:flex;
+    margin-top: -20px;
+}
+.icons-public img{
+    margin-right:10px;
+}
+.likes-publics h1{
+    font-size:15px;
+    margin-top: 4px;
+}
+.likes-publics p{
+    font-size:12px;
+    font-weight:200;
+    text-align:left;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+}
+
+li {
+    display:flex;
+    justify-self: center;
+        list-style: none;
+}
+ul{
+    margin:0px;
+    padding:0px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    /* Desktops */
+    nav{   
+        justify-content: space-around;   
+    }
+    .nav-right{
+        margin-left:200px ;
+    }
+    .history-scroll{
+        overflow:initial;
+    }
+    .container-main{
+        display:flex;
+        justify-content:center;
+    }
+    .container-feed{
+        /*     */
+    }
+    .instagram-img-public{
+        display:flex;
+        justify-content:center;
+    }
+    .instagram-img-public img{
+        width:50%;
+        height:0%;
+    }
+    .publication-instagram{
+        margin-left: 410px;
+    }
+    .icons-public{
+        margin-left:80px;
+    }
+    .likes-publics p{
+        text-align: center;
+    }
+}
